@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jdplife</groupId>
+        <artifactId>jdplife-api</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>jdplife-admin-api</artifactId>
+    <packaging>jar</packaging>
+    <name>jdplife Admin API</name>
+    <description>后台管理接口层 - Admin控制器</description>
+
+    <dependencies>
+        <!-- 认证模块 -->
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-auth</artifactId>
+        </dependency>
+        <!-- 业务模块 -->
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-system</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-crypto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-file</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-gen</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-biz</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-message</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-pay</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-sms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-job</artifactId>
+        </dependency>
+
+        <!-- WebSocket基础设施 -->
+        <dependency>
+            <groupId>com.jdplife</groupId>
+            <artifactId>jdplife-websocket</artifactId>
+        </dependency>
+
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+</project>
